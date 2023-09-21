@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        
+		<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<meta name="csrf-token" content="VaiU3jsgrRXUNmcBolEsspXAPKmRS8ZfHJGDpoxQ">
+<meta name="app-version" content="v2.6.80">
+<meta name="app-route" content="es/personality-test">
+<meta name="app-bs-uid" content="0">
+<meta name="api-token" content="">
+<meta name="app-locale" content="es">
+
+
+<meta property="og:site_name" content="16Personalities">
+<meta property="og:url" content="https://www.16personalities.com/es/test-de-personalidad">
+<meta property="og:title" content="Test de Personalidad Gratis | 16Personalities">
+<meta property="og:image" content="https://www.16personalities.com/static/images/social/homepage.png">
+
+
+<title>Test de Personalidad Gratis | 16Personalities</title>
+
+<link rel="icon" type="image/png" href="https://www.16personalities.com/static/images/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="https://www.16personalities.com/static/images/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://www.16personalities.com/static/images/favicons/favicon-16x16.png" sizes="16x16">
+
+<link rel="stylesheet" href="https://www.16personalities.com/build/assets/c3r5bgnvcmu--b492f407.css" /><link rel="preload" href="https://www.16personalities.com/build/assets/c3r5bgnvcmu--b492f407.css" as="style" /><link rel="stylesheet" href="https://www.16personalities.com/build/assets/c3r5bgxhcmdl--a6a2ad28.css" media="screen and (min-width: 768px)" />
+<link rel="stylesheet" href="https://www.16personalities.com/build/assets/c3r5bgzvbnrz--779365ef.css" /><link rel="preload" href="https://www.16personalities.com/build/assets/c3r5bgzvbnrz--779365ef.css" as="style" />
+<link rel="stylesheet" href="https://www.16personalities.com/build/assets/zm9udcvzb21l--5f603b41.css" /><link rel="preload" href="https://www.16personalities.com/build/assets/zm9udcvzb21l--5f603b41.css" as="style" />
+
+    <link rel="stylesheet" href="https://www.16personalities.com/build/assets/cgvyc2vzda--4d68f601.css" /><link rel="preload" href="https://www.16personalities.com/build/assets/cgvyc2vzda--4d68f601.css" as="style" /><link rel="stylesheet" href="https://www.16personalities.com/build/assets/cgvyc2fyz2u--d98020c4.css" media="screen and (min-width: 768px)" />
+            <link rel="stylesheet" href="https://www.16personalities.com/build/assets/bgvnywxlcw--fd7579f2.css" /><link rel="stylesheet" href="https://www.16personalities.com/build/assets/bgvnywfyz2u--ac72b906.css" media="screen and (min-width: 768px)" />
+        
+
+
+<link rel="stylesheet" href="https://www.16personalities.com/build/assets/aw50zxlszxm--a1b1f3fd.css" /><link rel="preload" href="https://www.16personalities.com/build/assets/aw50zxlszxm--a1b1f3fd.css" as="style" /><link rel="stylesheet" href="https://www.16personalities.com/build/assets/aw50zxxhcmdl--59db1e49.css" media="screen and (min-width: 768px)" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic&subset=latin,cyrillic,greek,latin-ext&display=swap' rel='stylesheet' type='text/css'>
+
+<link rel="canonical" href="https://www.16personalities.com/es/test-de-personalidad">
+
+
+    
+        <link rel="alternate" hreflang="en" href="https://www.16personalities.com/free-personality-test">
+                    <link rel="alternate" hreflang="ar" href="https://www.16personalities.com/ar/%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9">
+                    <link rel="alternate" hreflang="az" href="https://www.16personalities.com/az/xarakterl%C9%99-ba%C4%9Fl%C4%B1-test">
+                    <link rel="alternate" hreflang="bg" href="https://www.16personalities.com/bg/%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%BD-%D1%82%D0%B5%D1%81%D1%82">
+                    <link rel="alternate" hreflang="bn" href="https://www.16personalities.com/bn/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE">
+                    <link rel="alternate" hreflang="zh" href="https://www.16personalities.com/ch/%E4%BA%BA%E6%A0%BC%E6%B5%8B%E8%AF%95">
+                    <link rel="alternate" hreflang="cs" href="https://www.16personalities.com/cs/osobnostni-test">
+                    <link rel="alternate" hreflang="da" href="https://www.16personalities.com/da/gratis-personlighedstest">
+                    <link rel="alternate" hreflang="de" href="https://www.16personalities.com/de/kostenloser-personlichkeitstest">
+                    <link rel="alternate" hreflang="et" href="https://www.16personalities.com/ee/isiksuse-test">
+                    <link rel="alternate" hreflang="es" href="https://www.16personalities.com/es/test-de-personalidad">
+                    <link rel="alternate" hreflang="el" href="https://www.16personalities.com/el/%CE%B4%CF%89%CF%81%CE%B5%CE%AC%CE%BD-%CF%84%CE%B5%CF%83%CF%84-%CF%80%CF%81%CE%BF%CF%83%CF%89%CF%80%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1%CF%82">
+                    <link rel="alternate" hreflang="fa" href="https://www.16personalities.com/fa/%D8%A2%D8%B2%D9%85%D9%88%D9%86-%D8%B4%D8%AE%D8%B5%DB%8C%D8%AA">
+                    <link rel="alternate" hreflang="fi" href="https://www.16personalities.com/fi/persoonallisuustesti">
+                    <link rel="alternate" hreflang="fr" href="https://www.16personalities.com/fr/test-de-personnalite">
+                    <link rel="alternate" hreflang="he" href="https://www.16personalities.com/he/%D7%9E%D7%91%D7%97%D7%9F-%D7%90%D7%99%D7%A9%D7%99%D7%95%D7%AA">
+                    <link rel="alternate" hreflang="hi" href="https://www.16personalities.com/hi/%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B5-%E0%A4%AA%E0%A4%B0%E0%A5%80%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3">
+                    <link rel="alternate" hreflang="hr" href="https://www.16personalities.com/hr/test-osobnosti">
+                    <link rel="alternate" hreflang="hu" href="https://www.16personalities.com/hu/ingyenes-szem%C3%A9lyis%C3%A9gteszt">
+                    <link rel="alternate" hreflang="hy" href="https://www.16personalities.com/hy/%D5%A1%D5%B6%D5%B0%D5%A1%D5%BF%D5%A1%D5%AF%D5%A1%D5%B6%D5%B8%D6%82%D5%A9%D5%B5%D5%A1%D5%B6-%D5%A9%D5%A5%D5%BD%D5%BF">
+                    <link rel="alternate" hreflang="id" href="https://www.16personalities.com/id/tes-kepribadian">
+                    <link rel="alternate" hreflang="is" href="https://www.16personalities.com/is/pers%C3%B3nuleikapr%C3%B3f">
+                    <link rel="alternate" hreflang="it" href="https://www.16personalities.com/it/test-della-personalita-gratis">
+                    <link rel="alternate" hreflang="ja" href="https://www.16personalities.com/ja/%E6%80%A7%E6%A0%BC%E8%A8%BA%E6%96%AD%E3%83%86%E3%82%B9%E3%83%88">
+                    <link rel="alternate" hreflang="ka" href="https://www.16personalities.com/ka/%E1%83%9E%E1%83%98%E1%83%A0%E1%83%9D%E1%83%95%E1%83%9C%E1%83%94%E1%83%91%E1%83%98%E1%83%A1-%E1%83%A2%E1%83%94%E1%83%A1%E1%83%A2%E1%83%98">
+                    <link rel="alternate" hreflang="kk" href="https://www.16personalities.com/kk/%D1%82%D2%B1%D0%BB%D2%93%D0%B0-%D1%82%D0%B5%D1%81%D1%82%D1%96">
+                    <link rel="alternate" hreflang="ko" href="https://www.16personalities.com/ko/%EB%AC%B4%EB%A3%8C-%EC%84%B1%EA%B2%A9-%EC%9C%A0%ED%98%95-%EA%B2%80%EC%82%AC">
+                    <link rel="alternate" hreflang="lv" href="https://www.16personalities.com/lv/person%C4%ABbas-tests">
+                    <link rel="alternate" hreflang="ms" href="https://www.16personalities.com/ms/ujian-personaliti">
+                    <link rel="alternate" hreflang="nl" href="https://www.16personalities.com/nl/persoonlijkheidstest">
+                    <link rel="alternate" hreflang="no" href="https://www.16personalities.com/no/gratis-personlighetstest">
+                    <link rel="alternate" hreflang="pl" href="https://www.16personalities.com/pl/darmowy-test-osobowosci">
+                    <link rel="alternate" hreflang="pt-br" href="https://www.16personalities.com/br/teste-de-personalidade">
+                    <link rel="alternate" hreflang="ro" href="https://www.16personalities.com/ro/test-de-personalitate-gratuit">
+                    <link rel="alternate" hreflang="ru" href="https://www.16personalities.com/ru/test-lichnosti">
+                    <link rel="alternate" hreflang="sk" href="https://www.16personalities.com/sk/bezplatny-test-osobnosti">
+                    <link rel="alternate" hreflang="sl" href="https://www.16personalities.com/sl/brezplacen-test-osebnosti">
+                    <link rel="alternate" hreflang="sr" href="https://www.16personalities.com/sr/besplatan-test-licnosti">
+                    <link rel="alternate" hreflang="sv" href="https://www.16personalities.com/sv/gratis-personlighetstest">
+                    <link rel="alternate" hreflang="sw" href="https://www.16personalities.com/sw/jaribio-la-kibinafsi">
+                    <link rel="alternate" hreflang="th" href="https://www.16personalities.com/th/%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%97%E0%B8%94%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%81%E0%B8%A0%E0%B8%B2%E0%B8%9E">
+                    <link rel="alternate" hreflang="tr" href="https://www.16personalities.com/tr/%C3%BCcretsiz-ki%C5%9Filik-testi">
+                    <link rel="alternate" hreflang="zh-TW" href="https://www.16personalities.com/tw/%E6%80%A7%E6%A0%BC%E6%B8%AC%E8%A9%A6">
+                    <link rel="alternate" hreflang="uk" href="https://www.16personalities.com/uk/bezkoshtovnyy-test-na-vyznachennya-osobystosti">
+                    <link rel="alternate" hreflang="uz" href="https://www.16personalities.com/uz/bepul-shaxsiyat-testi">
+        
+    
+
+
+<script>
+
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+
+    ga('create', 'UA-27031617-1', 'auto');
+    ga('set', 'anonymizeIp', true);
+
+</script>
+
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7YT1C03C8C"></script>
+
+    <script>
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7YT1C03C8C', { 'anonymize_ip': true });
+        // gtag('config', 'AW-735624324');
+
+    </script>
+
+
+
+<style>[v-cloak]{display:none !important;}</style>
+            </head>
+
+    <body role="document" class="">
+        <ul class="sr-only">
+<li><a href="#skip-content" id="access-main">Skip to main content</a></li>
+<li><a href="#skip-search">Skip to search</a></li>
+</ul>
+
+        <div class="main-wrapper int es" id="main-app" v-international="`es`">
+
+            <div class="navbar sticky  "
+     v-sticky-nav="false"
+      data-chunk=" ">
+
+    <div class="logo" v-until:nav-logo="true">
+        <img src="https://www.16personalities.com/static/images/system/logo.svg" alt="16Personalities">
+    </div>
+    <app-logo class="logo" v-cloak v-after:nav-logo v-loaded:nav-logo.ready>
+        <img src="https://www.16personalities.com/static/images/system/logo.svg" alt="16Personalities">
+    </app-logo>
+
+    <nav class="sp-nav__topmiddle middle-section guest"  v-until:nav-middle>
+            <nav class="sp-nav__topmiddle middle-section international anonymous">
+            <ul>
+                <li class="active">
+                    <a href="https://www.16personalities.com/es/test-de-personalidad">Test de Personalidad</a>
+                </li>
+                <li class="">
+                    <a href="https://www.16personalities.com/es/descripcion-de-los-tipos">Tipos de personalidad</a>
+                </li>
+                <li class="">
+                    <a href="https://www.16personalities.com/es/contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </nav>
+    <app-nav-top-middle class="middle-section" v-cloak v-after:nav-middle v-loaded:nav-middle.ready></app-nav-top-middle>
+
+    <div class="right-section"  v-until:nav-right>
+            <a href="https://www.16personalities.com/languages" class="language-link sp-action sp-link link--icon-lt">
+
+                            <span class="sp-icon size--inherit icon--darkgray icon--16pglobe"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 100 100"><path style="fill: #51596a" d="M84.3 7.5 49.5 0l-35 11.7L0 41.2l4 30.5 17 21 31.3 7.2 33.2-10.5L98 66.2l2-31.8L84.3 7.5zm-5.4 75.7-18.7 6.3-1.5-6.5 3.1-7.8-11.3-5-13.1-1.3L28.9 58l-9.8-7.5-1.7-13.4-5.9-4.8 2-4.6 8.1-2.4.8-4.9 3.8-3.1 23.4-.9-7.9 9.8 4.9 2.1 3.7-4.4 14.8 5.5 8.8 7.3-12 7.1L57 58.6l-9.6-1.9-4.6 8.4 9.2 1.8 9.9 6.8 14.6-.2 7.8 2.2-5.4 7.5z"></path></svg></span>
+                <span class="lang--full">Español</span>
+                <span class="lang--abbr">ES</span>
+            
+        </a>
+    </div>
+    <app-nav-top-right class="right-section" v-cloak v-after:nav-right v-loaded:nav-right.ready></app-nav-top-right>
+
+    <nav-mobile-toggle></nav-mobile-toggle>
+
+</div>
+
+<app-nav-top-mobile v-cloak></app-nav-top-mobile>
+
+            
+    <main class="q-pt" id="test-app">
+
+        <header>
+
+            <h1>Test de Personalidad Gratis</h1>
+
+            <div class="trademark">
+                NERIS Type Explorer<sup>®</sup>
+            </div>
+
+        </header>
+
+        <section class="tips">
+            <div class="tip-highlight first"></div>
+            <div class="tip-highlight second"></div>
+            <div class="tip-highlight third"></div>
+            <div class="tip">
+                <div class="background"></div>
+                <img src="https://www.16personalities.com/static/images/test-header-1.svg">
+                <div class="text">
+                    <div class="title">
+                        Toma menos de 12 minutos.
+                    </div>
+                </div>
+            </div>
+            <div class="tip">
+                <img src="https://www.16personalities.com/static/images/test-header-2.svg">
+                <div class="text">
+                    <div class="title">
+                        Responde honestamente (aun si no te gusta la respuesta).
+                    </div>
+                </div>
+            </div>
+            <div class="tip last">
+                <img src="https://www.16personalities.com/static/images/test-header-3.svg">
+                <div class="text">
+                    <div class="title">
+                        Trata de no dejar ninguna respuesta como “neutral”.
+                    </div>
+                </div>
+            </div>
+            <div class="shape"></div>
+            <div class="shadow"></div>
+        </section>
+
+        <div id="main-app">
+            <div v-cloak>
+                <quiz
+                    data-chunk="quiz-chunk"
+                    :right2left="false"
+                    t-next="Siguiente"
+                    t-see-results="Resultados"
+                    t-please-wait="Resultados"
+                    t-agree="Estoy de acuerdo"
+                    t-disagree="No estoy de acuerdo"
+                    locale="es"
+                    :ask-gender="false"
+                    :questions="[{&quot;text&quot;:&quot;Haces nuevos amigos con regularidad.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Dedicas gran parte de tu tiempo libre a explorar temas aleatorios que despiertan tu inter\u00e9s.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Ver llorar a otras personas puede hacer que sientas ganas de llorar t\u00fa tambi\u00e9n.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Sueles hacer un plan de reserva para un plan de reserva.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Sueles mantener la calma, incluso bajo mucha presi\u00f3n.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;En los actos sociales, rara vez intentas presentarte a gente nueva y sueles hablar con los que ya conoces.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Prefieres terminar por completo un proyecto antes de empezar otro.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Eres muy sentimental.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te gusta utilizar herramientas de organizaci\u00f3n como agendas y listas.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Incluso un peque\u00f1o error puede hacerte dudar de tus capacidades y conocimientos generales.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te sientes c\u00f3modo acerc\u00e1ndote a alguien que te parece interesante y entablando una conversaci\u00f3n.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;No te interesa demasiado discutir las diversas interpretaciones y an\u00e1lisis de las obras creativas.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te gusta m\u00e1s seguir a tu cabeza que a tu coraz\u00f3n.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Sueles preferir hacer lo que te apetece en cada momento en lugar de planificar una rutina diaria concreta.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Rara vez te preocupas por causar una buena impresi\u00f3n a las personas que conoces.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te gusta participar en actividades de grupo.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te gustan los libros y las pel\u00edculas que te hacen pensar en tu propia interpretaci\u00f3n del final.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Tu felicidad proviene m\u00e1s de ayudar a los dem\u00e1s a conseguir cosas que de tus propios logros.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te interesan tantas cosas que te resulta dif\u00edcil elegir qu\u00e9 probar a continuaci\u00f3n.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Eres propenso a preocuparte de que las cosas empeoren.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Evitas el liderazgo en grupos.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;No eres una persona art\u00edstica.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Crees que el mundo ser\u00eda mejor si la gente se basara m\u00e1s en la racionalidad y menos en sus sentimientos.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Prefieres hacer tus tareas antes de permitirte relajarte.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te gusta ver discutir a la gente.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Tiendes a evitar llamar la atenci\u00f3n.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Tu humor puede cambiar muy r\u00e1pidamente.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Pierdes la paciencia con las personas que no son tan eficientes como t\u00fa.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;A menudo acabas haciendo las cosas en el \u00faltimo momento.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Siempre te ha fascinado la cuesti\u00f3n de qu\u00e9 ocurre despu\u00e9s de la muerte, si es que ocurre algo.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Sueles preferir estar rodeado de otros que solo.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te aburres o pierdes el inter\u00e9s cuando la discusi\u00f3n se vuelve muy te\u00f3rica.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te resulta f\u00e1cil empatizar con una persona cuyas experiencias son muy diferentes de las tuyas.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Sueles aplazar la toma de decisiones el mayor tiempo posible.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Rara vez reconsideras las decisiones que has tomado.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Despu\u00e9s de una semana larga y agotadora, un acto social animado es justo lo que necesitas.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te gusta ir a museos de arte.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te cuesta comprender los sentimientos de los dem\u00e1s.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te gusta tener una lista de tareas para cada d\u00eda.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Rara vez te sientes inseguro.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Evitas llamar por tel\u00e9fono.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Sueles pasar mucho tiempo intentando comprender puntos de vista muy diferentes a los tuyos.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;En tu c\u00edrculo social, sueles ser t\u00fa quien contacta con tus amigos e inicia las actividades.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Si tus planes se ven interrumpidos, tu m\u00e1xima prioridad es retomarlos lo antes posible.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Todav\u00eda te molestan los errores que cometiste hace mucho tiempo.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Rara vez contemplas las razones de la existencia humana o el sentido de la vida.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Tus emociones te controlan m\u00e1s que t\u00fa a ellas.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te cuidas mucho de no hacer quedar mal a la gente, incluso cuando es completamente culpa suya.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Tu estilo personal de trabajo se acerca m\u00e1s a las explosiones espont\u00e1neas de energ\u00eda que a los esfuerzos organizados y constantes.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Cuando alguien tiene una buena opini\u00f3n de ti, te preguntas cu\u00e1nto tardar\u00e1 en sentirse decepcionado contigo.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te encantar\u00eda un trabajo en el que tuvieras que trabajar solo la mayor parte del tiempo.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Crees que reflexionar sobre cuestiones filos\u00f3ficas abstractas es una p\u00e9rdida de tiempo.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te sientes m\u00e1s atra\u00eddo por lugares con ambientes bulliciosos y ajetreados que por lugares tranquilos e \u00edntimos.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Sabes a primera vista c\u00f3mo se siente una persona.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;A menudo te sientes abrumado.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Completas las cosas met\u00f3dicamente sin saltarte ning\u00fan paso.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te intrigan mucho las cosas tachadas de controvertidas.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Dejar\u00edas pasar una buena oportunidad si pensaras que otra persona la necesita m\u00e1s.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Te cuesta cumplir los plazos.&quot;,&quot;answer&quot;:null},{&quot;text&quot;:&quot;Conf\u00edas en que las cosas te saldr\u00e1n bien.&quot;,&quot;answer&quot;:null}]"
+                    endpoint="https://www.16personalities.com/es/resultados"
+                ></quiz>
+            </div>
+            <share-highlighter></share-highlighter>
+    
+    <div class="modal__container">
+        
+                    <search-modal action="https://www.16personalities.com/search"></search-modal>
+        
+        
+            
+                <auth-login-modal data-chunk="guest-chunk"></auth-login-modal>
+                <auth-modal-forgot-password data-chunk="guest-chunk"></auth-modal-forgot-password>
+
+                
+                    <auth-registration
+                        data-chunk="guest-chunk"
+                        :reload="true"
+                        redirect=""
+                        invite-code=""
+                        personality-nice="Consul"
+                        personality="ESFJ"
+                        variant="assertive"
+                        :scores="[8,24,30,22,2]"
+                    ></auth-registration>
+
+                    <auth-modal-why-register data-chunk="guest-chunk"></auth-modal-why-register>
+
+                
+            
+        
+        <app-errors></app-errors>
+
+        <div id="portal--modal"></div>
+        <div id="portal--modalbg"></div>
+    </div>
+    <div class="scrollbar-measure"></div>
+    <app-theme></app-theme>
+
+                </div>
+
+        <div class="social-cta comp" data-chunk="social-chunk">
+    <div class="wrapper">
+        <div class="social-count" v-cloak>
+            <div class="number">199K</div>
+        </div>
+        <div class="social-icons">
+            
+            
+            <share-facebook ga-event="Description" page="personality-test" record></share-facebook>
+
+            <share-twitter ga-event="Description" page="personality-test" text="Test de Personalidad Gratis" record></share-twitter>
+
+            <share-pinterest ga-event="Description" page="personality-test" text="Test de Personalidad Gratis" record></share-pinterest>
+
+            <share-whatsapp ga-event="Description" page="personality-test" text="Test de Personalidad Gratis" record></share-whatsapp>
+
+            <share-messenger ga-event="Description" page="personality-test" record></share-messenger>
+
+            <share-email ga-event="Description" page="personality-test" record></share-email>
+        </div>
+    </div>
+</div>
+
+    </main>
+
+
+            <div class="push"></div>
+
+            
+            
+            <share-highlighter></share-highlighter>
+    
+    <div class="modal__container">
+        
+                    <search-modal action="https://www.16personalities.com/search"></search-modal>
+        
+        
+            
+                <auth-login-modal data-chunk="guest-chunk"></auth-login-modal>
+                <auth-modal-forgot-password data-chunk="guest-chunk"></auth-modal-forgot-password>
+
+                
+                    <auth-registration
+                        data-chunk="guest-chunk"
+                        :reload="false"
+                        redirect="https://www.16personalities.com/esfj-strengths-and-weaknesses"
+                        invite-code=""
+                        personality-nice="Consul"
+                        personality="ESFJ"
+                        variant="assertive"
+                        :scores="[8,24,30,22,2]"
+                    ></auth-registration>
+
+                    <auth-modal-why-register data-chunk="guest-chunk"></auth-modal-why-register>
+
+                
+            
+        
+        <app-errors></app-errors>
+
+        <div id="portal--modal"></div>
+        <div id="portal--modalbg"></div>
+    </div>
+    <div class="scrollbar-measure"></div>
+    <app-theme></app-theme>
+
+                    <footer id="footer" class="footer--vue                 international
+            ">
+
+    <div class="footer__copyright">
+        ©2011-2023 NERIS Analytics Limited
+    </div>
+    <nav class="footer__links">
+        <a class="link--inline" href="https://www.16personalities.com/contact-us">Contact</a>
+        <a class="link--inline hide--checkout" href="https://www.16personalities.com/orders/testimonials">Testimonials</a>
+        <a class="link--inline" href="https://www.16personalities.com/terms">Terms & Conditions</a>
+        <a class="link--inline last--checkout" href="https://www.16personalities.com/terms/privacy">Privacy Policy</a>
+        <a class="link--inline hide--checkout" href="https://www.16personalities.com/tools/teams">For Teams</a>
+        <a class="link--inline hide--checkout" href="https://www.16personalities.com/join-us">Join Us!</a>
+    </nav>
+    <el-footer-social></el-footer-social>
+
+    <!-- version v2.6.80 -->
+
+                    <div class="translation-alert">
+                    <strong>Disclaimer</strong>: All non-English versions of the website contain automated translations or translations submitted by our users. They are not binding in any way, are not guaranteed to be accurate, and have no legal effect. The official text is the <a class="link--inline" href="/">English version</a> of the website. Please consider reporting translation issues to <a class="link--inline" href="mailto:support@16personalities.com">support@16personalities.com</a>!
+                </div>
+            
+</footer>
+
+<div class="svg-icons">
+    <svg id="spin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M460.115 373.846l-6.941-4.008c-5.546-3.202-7.564-10.177-4.661-15.886 32.971-64.838 31.167-142.731-5.415-205.954-36.504-63.356-103.118-103.876-175.8-107.701C260.952 39.963 256 34.676 256 28.321v-8.012c0-6.904 5.808-12.337 12.703-11.982 83.552 4.306 160.157 50.861 202.106 123.67 42.069 72.703 44.083 162.322 6.034 236.838-3.14 6.149-10.75 8.462-16.728 5.011z"></path></svg>
+</div>
+
+        </div>
+
+        <script type="module" src="https://www.16personalities.com/build/assets/app-9a7354fc.js" async></script><script type="module" src="https://www.16personalities.com/build/assets/app-9a7354fc.js" rel="preload" as="script"></script>
+
+        <script type="text/javascript">setTimeout(function(){var s = document.createElement('link');s.rel='stylesheet';s.href='https://www.16personalities.com/build/assets/chjpbnjpbnq--2b7d4377.css';s.type='text/css';document.head.appendChild(s);},5000);</script>
+            <script>
+
+    
+        ga('send', 'pageview', {
+            'dimension5' : 'has-results',
+            'dimension11': 'es'
+        });
+
+    
+    gtag('set', 'user_properties', {
+        locale    : 'es',
+        authStatus: 'has-results',
+        userId    : '',
+        cookieId  : '',
+        abTest1   : 'sales_pages_teams_video_male_unknown',
+        abTest2   : 'sales_pages_single_product_unknown',
+    });
+
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(225, 250, 179, 0.8);
+}
+
+p{
+    font-family: Consolas, monaco, monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Consolas, monaco, monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Consolas, monaco, monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Consolas, monaco, monospace; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Consolas, monaco, monospace; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;
+}
+
+#Logo{
+    height: 90px;
+    width: 80px;
+}
+
+#logo{
+    background-color: white;
+}
+
+nav,a{
+    margin-top: 20px;
+    margin-right: 40px;
+    padding: 20px;
+    display: inline;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+    color: black;
+}
+
+#menu{
+    font-size: 30px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    flex: auto;
+    padding: 80px;
+    width: 100%;
+    font-stretch: 100%;
+    font-weight: 700;
+    font-display: swap;
+}
+
+h1{
+    font-size: 2.3em;
+}
+
+header{
+    color: white;
+    text-align: center;
+    background-color: rgb(108,187,63,.8);
+    padding: 20px;
+    position: relative;
+    display: block;
+    flex: auto;
+}
+
+.tips {
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 10px 30px;
+}
+
+.tips {
+    padding-top: 20px;
+}
+
+.tips {
+    align-items: center;
+    background-color: rgb(108,187,63,.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 15px;
+    position: relative;
+}
+
+.tips .tip {
+    flex: 0 0 calc(33.33333% - 20px);
+    flex-direction: column;
+    margin: 10px 10px 0;
+    max-width: unset;
+    padding: 25px 0;
+    width: calc(33.33333% - 20px);
+    padding: 15px;
+}
+
+.tips .tip {
+    align-items: center;
+    background-color: rgba(255,255,255,.8);
+    border-radius: 10px;
+    display: flex;
+    flex: 0 0 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    max-width: 550px;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    z-index: 4;
+}
+
+section {
+    display: block;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+    overflow: clip;
+    height: 75px;
+    width: 75px;
+}
+
+.tips .tip .text {
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+.Arte{
+    text-align: center;
+}
+
+.titulo{
+    background-color: rgb(108,187,63,.8);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 600px;
+    margin-left: 600px;
+    color: white;
+}
+
+h2{
+    font-family: Consolas, monaco, monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Consolas, monaco, monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Consolas, monaco, monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Consolas, monaco, monospace; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Consolas, monaco, monospace; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;
+    color: white;
+}
+
+.preguntas{
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.respuestas{
+    color: rgb(0,132,134,);
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
