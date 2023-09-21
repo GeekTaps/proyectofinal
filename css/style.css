@@ -147,3 +147,20 @@ h2{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.seccion form label{
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.seccion{
+    border: 3px ridge;
+    border-color: rgb(0,132,134,);
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
