@@ -23,10 +23,7 @@ const respuestas = [r_preg1, r_preg2, r_preg3, r_preg4, r_preg5,]
 //funciones
 
 function resultados(){
-    for (r of respuestas){
-    }
 }
-
 
 //eventos
 
