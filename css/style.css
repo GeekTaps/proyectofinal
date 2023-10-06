@@ -44,6 +44,7 @@ h1{
 
 header{
     color: white;
+     text-shadow: 5px 5px 5px  rgb(225, 250, 179, 0.8);
     text-align: center;
     background-color: rgb(108,187,63,.8);
     padding: 20px;
