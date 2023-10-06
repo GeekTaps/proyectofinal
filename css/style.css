@@ -164,3 +164,23 @@ h2{
     margin: auto;
     padding: 10px;
 }
+
+.nombre {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: small;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(108,187,63,.8);
+    border: 1px solid rgb(108,187,63,.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    border-style: ridge;
+    border: 1px solid greenyellow;
+    border-radius: 30px;
+}
