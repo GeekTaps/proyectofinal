@@ -122,11 +122,11 @@ img {
 }
 
 .titulo{
-    background-color: rgb(108,187,63,.8);
+    background-color: rgb(225, 250, 179, 0.8);
     margin-top: 20px;
     margin-bottom: 50px;
-    margin-right: 600px;
-    margin-left: 600px;
+    margin-right: 200px;
+    margin-left: 200px;
     color: rgb(108,187,63,.8);
 }
 
