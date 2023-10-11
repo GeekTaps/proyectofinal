@@ -44,6 +44,7 @@ h1{
 
 header{
     color: white;
+     text-shadow: 5px 5px 5px  rgb(225, 250, 179, 0.8);
     text-align: center;
     background-color: rgb(108,187,63,.8);
     padding: 20px;
@@ -122,16 +123,17 @@ img {
 }
 
 .titulo{
-    background-color: rgb(108,187,63,.8);
+    
     margin-top: 20px;
     margin-bottom: 50px;
-    margin-right: 600px;
-    margin-left: 600px;
-    color: white;
+    margin-right: 200px;
+    margin-left: 200px;
+    color: rgb(108,187,63,.8);
+     text-shadow: 5px 5px 5px rgb(108, 187, 63, .8);
 }
 
 h2{
-    font-family: Consolas, monaco, monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Consolas, monaco, monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Consolas, monaco, monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Consolas, monaco, monospace; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Consolas, monaco, monospace; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;
+    font-family: Consolas, monaco, monospace; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Consolas, monaco, monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Consolas, monaco, monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Consolas, monaco, monospace; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Consolas, monaco, monospace; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;
     color: white;
 }
 
@@ -216,7 +218,7 @@ body {
 }
 
 form {
-    margin-left: 450px;
+    margin:auto;
     margin-top: 50px;
     border-radius: 15px;
     border: 1px solid;
