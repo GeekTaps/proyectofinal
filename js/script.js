@@ -85,12 +85,12 @@ function resultados(){
         eje2.style.width = parseInt(eje2.style.width) + r[1] + "%"
         eje3.style.width = parseInt(eje3.style.width) + r[2] + "%"
         eje4.style.width = parseInt(eje4.style.width) + r[3] + "%"
-        eje5.style.width = parseInt(eje5.style.width) + r[0] + "%"
-        eje6.style.width = parseInt(eje6.style.width) + r[1] + "%"
-        eje7.style.width = parseInt(eje7.style.width) + r[2] + "%"
-        eje8.style.width = parseInt(eje8.style.width) + r[3] + "%"
-        eje9.style.width = parseInt(eje9.style.width) + r[0] + "%"
-        eje10.style.width = parseInt(eje10.style.width) + r[1] + "%"
+        eje5.style.width = parseInt(eje5.style.width) + r[4] + "%"
+        eje6.style.width = parseInt(eje6.style.width) + r[5] + "%"
+        eje7.style.width = parseInt(eje7.style.width) + r[6] + "%"
+        eje8.style.width = parseInt(eje8.style.width) + r[7] + "%"
+        eje9.style.width = parseInt(eje9.style.width) + r[8] + "%"
+        eje10.style.width = parseInt(eje10.style.width) + r[9] + "%"
     }
 }
 
