@@ -4,7 +4,7 @@ const b_submit = document.querySelector("input[type='submit']")
 
 // respuestas anteriores
 const urlParams = new URLSearchParams(window.location.search);
-const r_preg1_anterior = JSON.parse(urlParams.get('preg1')); //Ingenierias
+const r_preg1_anterior = JSON.parse(urlParams.get('preg1'));
 const r_preg2_anterior = JSON.parse(urlParams.get('preg2'));
 const r_preg3_anterior = JSON.parse(urlParams.get('preg3'));
 const r_preg4_anterior = JSON.parse(urlParams.get('preg4'));
