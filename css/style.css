@@ -133,6 +133,10 @@ h2{
     color: white; 
 } 
 
+h3{ 
+    font-size: 24px
+}
+
 .preguntas{
     padding: 13px;
     width: 100%;
