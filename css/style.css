@@ -253,3 +253,195 @@ textarea{
 input{
   width: 90%;
 }
+
+
+.artes {
+
+    text-align: center;
+    font-family: cursive;
+    padding-top: 10px;
+    font-family:Helvetica ;
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(152, 238, 101, 0.8);
+    border: 1px solid rgb(108,187,63,.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.derecho {
+
+    text-align: center;
+    font-family: cursive;
+    padding-top: 10px;
+    font-family:Helvetica ;
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(152, 238, 101, 0.8);
+    border: 1px solid rgb(108,187,63,.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.diseño {
+
+    text-align: center;
+    font-family: cursive;
+    padding-top: 10px;
+    font-family:Helvetica ;
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(152, 238, 101, 0.8);
+    border: 1px solid rgb(108,187,63,.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.economica {
+
+    text-align: center;
+    font-family: cursive;
+    padding-top: 10px;
+    font-family:Helvetica ;
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(152, 238, 101, 0.8);
+    border: 1px solid rgb(108,187,63,.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.exactas {
+
+    text-align: center;
+    font-family: cursive;
+    padding-top: 10px;
+    font-family:Helvetica ;
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(152, 238, 101, 0.8);
+    border: 1px solid rgb(108,187,63,.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.ingenieria {
+
+    text-align: center;
+    font-family: cursive;
+    padding-top: 10px;
+    font-family:Helvetica ;
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(152, 238, 101, 0.8);
+    border: 1px solid rgb(108,187,63,.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.psicologia {
+
+    text-align: center;
+    font-family: cursive;
+    padding-top: 10px;
+    font-family:Helvetica;
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(152, 238, 101, 0.8);
+    border: 1px solid rgb(108,187,63,.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.salud {
+
+    text-align: center;
+    padding-top: 10px;
+    font-family:Helvetica;
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(152, 238, 101, 0.8);
+    border: 1px solid rgb(108,187,63,.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    --bs-primary-rgb: 13, 110, 253;
+}
+
+.tecnologia {
+
+    text-align: center;
+    font-family: cursive;
+    padding-top: 10px;
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(152, 238, 101, 0.8);
+    border: 1px solid rgb(108,187,63,.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    font-family:helvetica ; 
+        
+}
+    
+    .carreras {
+        font-family:'Lucida Grande'; 
+        font-size: 37px; 
+        font-style: normal; 
+        font-variant: normal; 
+        font-weight: 700; 
+        line-height: 15.4px;
+        color: rgba(93, 139, 0, 0.8);
+        text-shadow: 5px 5px 5px  rgba(134, 175, 56, 0.8);
+    }
+
+    .carreras1 {
+        font-family:'Lucida Grande'; 
+        font-size: 31px; 
+        font-style: normal; 
+        font-variant: normal; 
+        font-weight: 700; 
+        line-height: 15.4px;
+        color: rgba(109, 161, 6, 0.8);
+
+
+    }
+
+.facultad{
+    font-family: monospace; 
+    font-size: 28px; font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px
+
+}
+   
+
+body{
+    background-color: rgb(225, 250, 179, 0.8);
+}
+
+.redes {
+    font-family: monospace; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 600; 
+    line-height: 26.4px; } 
+
