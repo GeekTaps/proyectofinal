@@ -29,40 +29,6 @@ function tomar_respuestas_form(){
 }
 
 function acumular_resultados(){
-    /*
-    respuestas_anteriores = [10, 10, 10, 10, 10]
-    respuestas_actuales = [2, 3, 4, 5, 6]
-
-    return [
-    [10,2],
-    [10,3],
-    [10,4],
-    [10,5],
-    [10,6],
-    ]
-    
-    _________________
-
-    respuestas_anteriores = [
-    [10,2],
-    [10,3],
-    [10,4],
-    [10,5],
-    [10,6],
-    ]
-
-    respuestas_actuales = [7, 2, 1, 2, 2]
-
-    return [
-    [10, 2, 7],
-    [10, 3, 2],
-    [10, 4, 1],
-    [10, 5, 2],
-    [10, 6, 2],
-    ]
-
-
-    */
 
     let respuestas_actuales = tomar_respuestas_form()
     let respuestas_anteriores = respuestas
@@ -76,7 +42,6 @@ function acumular_resultados(){
     return respuestas_acumuladas
 }
 
-
 //eventos
 
 b_submit.addEventListener("click", (contenido) => {
@@ -87,6 +52,7 @@ b_submit.addEventListener("click", (contenido) => {
     //tomar url siguiente pagina (tomar action del form)
     const url = document.querySelector("form").action
 
+
+
     window.location.href = url + "?preg1=" + JSON.stringify(acumular_resultados()[0]) + "&preg2=" + JSON.stringify(acumular_resultados()[1]) + "&preg3=" + JSON.stringify(acumular_resultados()[2]) + "&preg4=" + JSON.stringify(acumular_resultados()[3]) + "&preg5=" + JSON.stringify(acumular_resultados()[4])
 })
-

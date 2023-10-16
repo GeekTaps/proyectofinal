@@ -18,31 +18,31 @@ const eje10 = document.querySelector("#eje10") //Administración de la Seguridad
 
 const respuestas = [r_preg1, r_preg2, r_preg3, r_preg4, r_preg5]
 
-function resultados(){
+function resultados() {
     // TODO
-    for (r of respuestas){
-        eje1.innerText = parseInt(eje1.style.width) + r[1] + "%"
-        eje2.innerText = parseInt(eje2.style.width) + r[2] + "%"
-        eje3.innerText = parseInt(eje3.style.width) + r[3] + "%"
-        eje4.innerText = parseInt(eje4.style.width) + r[4] + "%"
-        eje5.innerText = parseInt(eje5.style.width) + r[5] + "%"
-        eje6.innerText = parseInt(eje6.style.width) + r[6] + "%"
-        eje7.innerText = parseInt(eje7.style.width) + r[7] + "%"
-        eje8.innerText = parseInt(eje8.style.width) + r[8] + "%"
-        eje9.innerText = parseInt(eje9.style.width) + r[9] + "%"
-        eje10.innerText = parseInt(eje10.style.width) + r[10] + "%"
+    for (let i = 0; i < respuestas.length; i++) {
+        let r = respuestas[i];
+        eje1.innerText = parseInt(eje1.style.width) + parseInt(r[1]) + "%";
+        eje2.innerText = parseInt(eje2.style.width) + parseInt(r[2]) + "%";
+        eje3.innerText = parseInt(eje3.style.width) + parseInt(r[3]) + "%";
+        eje4.innerText = parseInt(eje4.style.width) + parseInt(r[4]) + "%";
+        eje5.innerText = parseInt(eje5.style.width) + parseInt(r[5]) + "%";
+        eje6.innerText = parseInt(eje6.style.width) + parseInt(r[6]) + "%";
+        eje7.innerText = parseInt(eje7.style.width) + parseInt(r[7]) + "%";
+        eje8.innerText = parseInt(eje8.style.width) + parseInt(r[8]) + "%";
+        eje9.innerText = parseInt(eje9.style.width) + parseInt(r[9]) + "%";
+        eje10.innerText = parseInt(eje10.style.width) + parseInt(r[10]) + "%";
 
-
-        eje1.style.width = parseInt(eje1.style.width) + r[1] + "%"
-        eje2.style.width = parseInt(eje2.style.width) + r[2] + "%"
-        eje3.style.width = parseInt(eje3.style.width) + r[3] + "%"
-        eje4.style.width = parseInt(eje4.style.width) + r[4] + "%"
-        eje5.style.width = parseInt(eje5.style.width) + r[5] + "%"
-        eje6.style.width = parseInt(eje6.style.width) + r[6] + "%"
-        eje7.style.width = parseInt(eje7.style.width) + r[7] + "%"
-        eje8.style.width = parseInt(eje8.style.width) + r[8] + "%"
-        eje9.style.width = parseInt(eje9.style.width) + r[9] + "%"
-        eje10.style.width = parseInt(eje10.style.width) + r[10] + "%"
+        eje1.style.width = parseInt(eje1.style.width) + parseInt(r[1]) + "%";
+        eje2.style.width = parseInt(eje2.style.width) + parseInt(r[2]) + "%";
+        eje3.style.width = parseInt(eje3.style.width) + parseInt(r[3]) + "%";
+        eje4.style.width = parseInt(eje4.style.width) + parseInt(r[4]) + "%";
+        eje5.style.width = parseInt(eje5.style.width) + parseInt(r[5]) + "%";
+        eje6.style.width = parseInt(eje6.style.width) + parseInt(r[6]) + "%";
+        eje7.style.width = parseInt(eje7.style.width) + parseInt(r[7]) + "%";
+        eje8.style.width = parseInt(eje8.style.width) + parseInt(r[8]) + "%";
+        eje9.style.width = parseInt(eje9.style.width) + parseInt(r[9]) + "%";
+        eje10.style.width = parseInt(eje10.style.width) + parseInt(r[10]) + "%";
     }
 }
 
